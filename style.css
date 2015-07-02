@@ -8,7 +8,7 @@ header {
 	height: 90px;
 }
 
-header > img{
+#logo {
 	height: 60px;
 	padding: 15px 20px;
 }
@@ -25,21 +25,42 @@ header > a {
 	font-weight: 600;
 }
 
-.break {
-	background-color: #cf2c2b;
+.bighero6 {
+	background-image: url(assets/Ice_Cream.jpg);
+	background-size: cover;
+	background-position: left top;
+	min-height: 55vh;
+	text-align: center;
+	color: #ffffff;
 }
 
-footer {
-	padding-top: 2em;
+.bighero6 h1 {
+	font-size: 4em;
+	margin: 0;
+	padding: 20vh 0em 0em 0em;
+	letter-spacing: -2px;
 }
 
-footer h1 {
-	z-index: 1000;
+.bighero6 > a {
+	font-size: 1.6em;
+	font-weight: 700;
+	padding: 1em;
+	margin: 1em;
+	background-color: #28ADCA;
+	border-radius: 5px;
+	color: #ffffff;
+	opacity: 1;
+	display: inline-block;
+	text-decoration: none;
 }
 
-.containter {
-	max-width: 900px;
-	margin: auto;
+.bighero6 h3 {
+	word-spacing: 0;
+	font-weight: 600;
+	font-size: 2em;
+	margin: 0 auto;
+	max-width: 800px;
+	color: #FFF;
 }
 
 section {
@@ -126,153 +147,28 @@ blockquote {
 	
 }
 
-input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
-  background-color: transparent;
-  border: none;
-  border-bottom: 1px solid #9e9e9e;
-  border-radius: 0;
-  outline: none;
-  height: 3rem;
-  width: 100%;
-  font-size: 1rem;
-  margin: 0 0 15px 0;
-  padding: 0;
-  box-shadow: none;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  transition: all .3s; }
-
-.grid figure h1 {
-	font-size: 4em;
-	margin: 0;
-	padding: 20vh 0em 0em 0em;
-	letter-spacing: -2px;
+footer {
+	padding-top: 2em;
 }
 
-.grid {
-	position: relative;
-	margin: 0;
-	list-style: none;
-	text-align: center;
-	float: none;
+footer h1 {
+	z-index: 1000;
 }
-
-/* Common style */
-.grid figure {
-	position: relative;
-	float: left;
-	overflow: hidden;
-	margin: 0;
-/*	min-height: 410px;*/
-	max-height: 80vh;
-	width: 100%;
-	background: #3f7cac;
-	text-align: center;
-}
-
-.grid figure img, .grid figure video {
-	position: relative;
-	display: block;
-	min-height: 100%;
-/*	max-width: 100%;*/
-	opacity: 1;
-}
-
-.grid figure figcaption {
-	color: #FFFFFF;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-}
-
-.grid figure figcaption::before,
-.grid figure figcaption::after {
-	pointer-events: none;
-}
-
-.grid figure figcaption {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-/* Anchor will cover the whole item by default */
-/* For some effects it will show as a button */
-.grid figure figcaption > a {
-	font-size: 1.6em;
-	font-weight: 700;
-	padding: 1em;
-	margin: 1em;
-	background-color: #28ADCA;
-	border-radius: 5px;
-	color: #ffffff;
-	opacity: 1;
-	display: inline-block;
-	text-decoration: none;
-}
-
-.grid figure h3 {
-	word-spacing: 0;
-	font-weight: 600;
-	font-size: 2em;
-	margin: 0 auto;
-	max-width: 800px;
-	color: #FFF;
-}
-
-/*---------------*/
-/***** Sarah *****/
-/*---------------*/
-
-figure.effect-sarah {
-	background: #222;
-}
-
-figure.effect-sarah img, figure.effect-sarah video {
-	max-width: none;
-	width: -webkit-calc(100% + 300px);
-	width: calc(100% + 300px);
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(-10px,0,0);
-	transform: translate3d(-10px,0,0);
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	opacity: 0.1;
-}
-
-figure.effect-sarah img, figure.effect-sarah video {
-	opacity: 0.6;
-}
-
-figure.effect-sarah figcaption {
-	text-align: center;
-}
-
-figure.effect-sarah img {
-}
-
 
 @media screen and (min-width: 66em) {
 
-	.grid figure h1 {
+	.bighero6 h1 {
 		font-size: 7em;
 	}
 }
 
 @media screen and (max-width: 66em) {
-
-	.grid figure {
-		width: 100%;
-	}
 	
-	.grid figure h3 {
+	.bighero6 h3 {
 		padding: 1em;
 	}
 	
-		.testimony {
+	.testimony {
 		width: 100%;
 	}
 	
@@ -280,48 +176,32 @@ figure.effect-sarah img {
 
 @media screen and (max-width: 76em) {
 
-	.grid figure h1 {
+	.bighero6 h1 {
 		padding-top: 20vh;
 	}
 }
 
 @media screen and (max-width: 44em) {
-
-	.grid figure {
-		float: none;
-		margin: 0px auto;
-		width: 100%;
-	}
 	
-	.grid figure h1 {
+	.bighero6 h1 {
 		font-size: 2.7em;
 		padding-top: 18vh;
 	}
 	
-	.grid figure h3 {
+	.bighero6 h3 {
 		font-size: 1.5em;
 		padding: 1em;
 	}
 	
-	.grid figure figcaption > a {
+	.bighero6 > a {
 	font-size: 1.2em;
 	font-weight: 700;
 	padding: 1em;
 	margin: 0em;
 	}
 	
-	.grid figure video, figure.effect-sarah video {
-		display: none;
-	}
-	
-	figure.effect-sarah img {
-	display:block;
-	height: 100%;	
-	}
-	
 	.testimonies div:last-child {
 	display: none;
 	}
-	
 	
 }
