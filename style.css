@@ -252,7 +252,6 @@ figure.effect-sarah figcaption {
 }
 
 figure.effect-sarah img {
-	display: none;
 }
 
 
@@ -282,7 +281,7 @@ figure.effect-sarah img {
 @media screen and (max-width: 76em) {
 
 	.grid figure h1 {
-		padding-top: 10vh;
+		padding-top: 20vh;
 	}
 }
 
@@ -296,7 +295,7 @@ figure.effect-sarah img {
 	
 	.grid figure h1 {
 		font-size: 2.7em;
-		padding-top: 10vh;
+		padding-top: 18vh;
 	}
 	
 	.grid figure h3 {
@@ -318,6 +317,10 @@ figure.effect-sarah img {
 	figure.effect-sarah img {
 	display:block;
 	height: 100%;	
+	}
+	
+	.testimonies div:last-child {
+	display: none;
 	}
 	
 	
